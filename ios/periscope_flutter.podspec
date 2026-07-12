@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency 'Flutter'
-  s.dependency 'PeriscopeKit', '0.5.1'
+  s.dependency 'PeriscopeKit', '0.5.0'
 end
