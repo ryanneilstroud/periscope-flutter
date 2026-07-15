@@ -1,6 +1,6 @@
 name: periscope_flutter
 description: Flutter bridge for PeriscopeKit (iOS) and PeriscopeAndroid (Android).
-version: 0.1.0
+version: 0.5.5
 homepage: https://github.com/ryanneilstroud/periscope-flutter
 repository: https://github.com/ryanneilstroud/periscope-flutter
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'periscope_flutter'
-  s.version          = '0.1.0'
+  s.version          = '0.5.5'
   s.summary          = 'Flutter bridge for PeriscopeKit.'
   s.description      = 'Flutter plugin that bridges PeriscopeKit on iOS.'
   s.homepage         = 'https://github.com/ryanneilstroud/periscope-flutter'
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency 'Flutter'
-  s.dependency 'PeriscopeKit', '0.5.0'
+  s.dependency 'PeriscopeKit', '0.5.5'
 end
