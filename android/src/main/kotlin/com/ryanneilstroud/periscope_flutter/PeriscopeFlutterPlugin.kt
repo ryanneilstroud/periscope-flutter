@@ -18,6 +18,7 @@ class PeriscopeFlutterPlugin : FlutterPlugin, MethodCallHandler {
   private val mainHandler = Handler(Looper.getMainLooper())
 
   override fun onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
+    Periscope.initialize(flutterPluginBinding.applicationContext)
     channel = MethodChannel(flutterPluginBinding.binaryMessenger, "periscope_flutter")
     channel.setMethodCallHandler(this)
   }

@@ -1,5 +1,5 @@
 group = "com.ryanneilstroud.periscope_flutter"
-version = "0.1.0"
+version = "0.5.5"
 
 buildscript {
     ext.kotlin_version = "1.9.24"
@@ -44,6 +44,6 @@ android {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version")
-    implementation("io.github.ryanneilstroud:periscopeandroid:0.5.1")
+    implementation("io.github.ryanneilstroud:periscopeandroid:0.5.5")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
